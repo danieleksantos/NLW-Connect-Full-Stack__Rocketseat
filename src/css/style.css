@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root, 
+  input, 
+  button {
+    font-family: "Montserrat";
+  }
+  
+  body {
+    background: url("https://raw.githubusercontent.com/maykbrito/my-public-files/main/nlw-19/bg.jpg") no-repeat center/cover;
+    min-height: 100vh;
+    color: #E1E1E6;
+    display: grid;
+    place-items: center;
+    padding: 2rem 1rem;
+  }
+  
+  header {
+    display: grid;
+    justify-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Oxanium';
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: #DAE4F2;
+  }
+  
+  h1 div {
+    color: #6F9DE2;
+  }
+  
+  main {
+    display: grid;
+    gap: 1.25rem;
+    max-width: 368px;
+  }
+  
+  section {
+    background: #191D24;
+    padding: 1.5rem;
+    border: 1px solid #21252C;
+    border-radius: 1rem;
+  }
+  
+  .section__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-family: 'Oxanium';
+    font-size: 1.25rem;
+    line-height: 100%;
+    color: #C8D0DA;
+  }
+  
+  .badge {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 0.75rem;
+    line-height: 160%;
+    font-weight: 600;
+    color: #9871F3;
+  }
+  
+  .badge::before {
+    content: '';
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+    background: url(https://raw.githubusercontent.com/maykbrito/my-public-files/main/nlw-19/radio.svg) no-repeat center;
+  }
+  
+  p {
+    font-size: .875rem;
+    line-height: 160%;
+    color: #95A1B1;
+  }
+  
+  .registration h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .input-wrapper {
+    display: grid;
+    gap: .75rem;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    height: 3rem;
+    border: 1px solid #21252C;
+    background-color: #13161B;
+    padding: 0 1rem;
+    border-radius: 1rem;
+  }
+  
+  .input-group:focus-within {
+    outline: 1.5px solid #fff;
+  }
+  
+  input {
+    background: none;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    color: #E1E1E6;
+    outline: none;
+  }
+
+ 
+  /* Remove o fundo do autofill e mantém o estilo do input */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active {
+    background: none !important;
+    box-shadow: 0 0 0px 1000px #13161B inset !important;
+    -webkit-text-fill-color: #E1E1E6 !important; 
+    /* transition: background-color 5000s ease-in-out 0s;  */
+  }  
+  
+  input::placeholder {
+    line-height: 160%;
+    color: #6F7D90;
+  }
+  
+  button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 0;
+    border-radius: 1rem;
+    background: #2A313C;
+    color: #6F9DE2;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 160%;
+    height: 3rem;
+    cursor: pointer;
+    transition: .6s ease-in-out;
+  }
+  
+  button:hover {
+    filter: brightness(1.1);
+    scale: 1.05;
+    background: #6F9DE2;
+    color: #2A313C;
+  }
+  
+   button:hover .arrow-icon {
+    filter: brightness(0.3);
+  }
+  
+  h3 {
+    font-family: 'Oxanium';
+    font-size: 1.25rem;
+    color: #9871F3;
+  }
+  
+  .stats {
+    position: relative;
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    text-align: center;
+  }
+  
+  .stats::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://raw.githubusercontent.com/maykbrito/my-public-files/main/nlw-19/verify.svg) no-repeat;
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+  }
+  
+  h4 {
+    margin-top: .5rem;
+    font-family: 'Oxanium';
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 100%;
+    color: #C8D0DA;
+  }
