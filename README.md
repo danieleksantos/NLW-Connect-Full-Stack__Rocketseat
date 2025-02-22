@@ -1,4 +1,4 @@
-# 🚀 NLW Connect - Full Stack
+# 🚀 Plataforma de Inscrições com com Links de Referência Personalizados | NLW Connect - Full Stack
 
 Projeto desenvolvido durante a **Next Level Week** da **Rocketseat**, com o objetivo de criar uma plataforma interativa para inscrições e compartilhamento de convites via sistema de referência.
 
